@@ -1,0 +1,118 @@
+@font-face {
+    font-family: 'Airbnb Cereal App';
+    src: url(/assets/airbnb-cereal-font/AirbnbCereal_W_Bd.otf), 
+    url(/assets/airbnb-cereal-font/AirbnbCereal_W_Bk.otf), 
+    url(/assets/airbnb-cereal-font/AirbnbCereal_W_Blk.otf),
+    url(/assets/airbnb-cereal-font/AirbnbCereal_W_Lt.otf),
+    url(/assets/airbnb-cereal-font/AirbnbCereal_W_Md.otf),
+    url(/assets/airbnb-cereal-font/AirbnbCereal_W_XBd.otf),;
+}
+
+body{
+    font-family: 'Airbnb Cereal App' !important;
+}
+
+.custom-body{
+    background: linear-gradient(90deg,rgba(241,188,21,1)5%,rgba(255,255,255,1) 5%,  rgba(255,255,255,1) 95%);
+    padding-bottom: 100px;
+}
+
+h1{
+    font-weight: 500 !important;
+    color: #2E266F ;
+    line-height: 90px;
+    font-size: 72px !important;
+}
+
+header{
+    padding-bottom: 100px;
+}
+
+.custom-nav{
+    color: #2E266F !important;
+}
+
+.custom-detail{
+    text-align: center;
+}
+
+.custom-ingredient{
+    margin-left: 230px;
+}
+
+.custom-image-food{
+  width: 800px;
+    height: 500px !important;
+}
+
+.btn-custom{
+    background-color: #EFC81A !important;
+    color: white !important;
+    border-radius: 4px !important;
+    width: 50% !important;
+}
+.btn-custom-area{
+    background-color:#EFC81A !important;
+    color: white !important;
+    border-radius: 4px !important;
+    width: 20% !important;
+}
+
+.btn-style{
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.custom-textarea{
+    width: 70% !important;
+}
+textarea{
+    background-color: #F6F5F4 !important;
+}
+.custom-image-userComment{
+    width: 50px !important;
+    height: 50px !important;
+}
+.cust-h2-comment{
+    margin-left: -70px !important;
+}
+
+@media (max-width: 768px) {
+    .custom-ingredient{
+        margin-left: 0px;
+    }
+}
+
+.custom-footer{
+    background-color: #EFC81A;
+    padding: 50px;
+    color: white;
+}
+
+.custom-inner-footer{
+    margin-top: 100px !important;
+}
+
+h4{
+    font-weight: normal !important;
+    color: #2E266F ;
+    line-height: 48px;
+    font-size: 72px !important;
+    margin-bottom: 30px !important;
+}
+
+.custom-list-footer{   
+    padding: 20px;
+}
+.custom-list-footer a{
+    text-decoration: none;
+    color: gray !important;
+}
+
+.custom-arcademy{
+    position: relative;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    color: black;
+}

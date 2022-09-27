@@ -40,6 +40,7 @@ h1{
 .input-search-custom{
     padding-top: 10px;
     padding-left: 70px;
+    padding-right: 35px;
     padding-bottom: 10px;
     width: 90%;
     border-radius: 4px;
@@ -48,12 +49,14 @@ h1{
     background-color: #EFEFEF;
     margin-bottom: 30px;
 }
+
 .custom-icon-search{
     display: flex;
     height: 100%;
     align-items: center;
     position: absolute;
     left: 35px;
+    bottom: 15px;
 }
 .custom-nav{
     padding: 20px;
@@ -157,6 +160,16 @@ li a{
 
 .custom-inner-footer{
     margin-top: 100px !important;
+    display: flex;
+    flex-direction: row;
+}
+
+.overflow-x-hidden{
+    overflow-x: hidden;
+}
+
+.bg-white{
+    background-color: white;
 }
 
 h4{
@@ -183,6 +196,14 @@ h4{
     color: black;
 }
 
+.footer-links{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
 @media (max-width: 768px) {
     .img-wrapper{
         justify-content: center;
@@ -199,4 +220,28 @@ h4{
     .cus-grid-md-4 {
       grid-column: span 12 / span 12;
     }
-  }
+
+    .footer-links{
+        margin-left: 0;
+    }
+
+    .custom-inner-footer{
+        flex-direction: column;
+    }
+    .custom-arcademy{
+        justify-content: center;
+    }
+    .img-main-popular::after{
+        content: "";
+        position: absolute;
+        transform: translate(-18%, 18%);
+        top: 0;
+        left: 0;
+        width: 90%;
+        height: 90%;
+        background: transparent;
+        border: 2px solid #f1bc15;
+        border-radius: 10px;
+        z-index: -1;
+    }
+}
