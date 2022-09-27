@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Detail page</title>
+    <link rel="stylesheet" href="/assets/detailresep.css" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT"
+      crossorigin="anonymous"
+    />
+  </head>
+  <body>
+    <header>
+      <nav class="navbar navbar-expand-lg bg-transparent fixed-top p-4">
+        <div class="container">
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarNav"
+            aria-controls="navbarNav"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+              <li class="nav-item px-3">
+                <a
+                  class="nav-link active custom-nav"
+                  aria-current="page"
+                  href=""
+                  >Home</a
+                >
+              </li>
+              <li class="nav-item px-3">
+                <a class="nav-link active custom-nav" href="">Add Recipe</a>
+              </li>
+              <li class="nav-item px-3">
+                <a class="nav-link active custom-nav" href="">Profile</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <main>
+      <section class="container mt-5">
+        <div class="custom-detail">
+          <h1 class="mb-4">Chicken Sandwich</h1>
+          <div class="position-relative">
+            <img
+              src="/assets/image/makanan2.png"
+              alt="chicken"
+              class="img-fluid custom-image-food"
+            />
+          </div>
+        </div>
+        <div class="custom-ingredient my-5">
+          <h2>Ingredients</h2>
+          <ul>
+            <li>2 eggs</li>
+            <li>2 tbsp mayonnaise</li>
+            <li>3 slices bread</li>
+            <li>a little butter</li>
+            <li>⅓ carton of cress</li>
+            <li>
+              2-3 slices of tomato or a lettuce leaf and a slice of ham or
+              cheese
+            </li>
+            <li>crisps , to serve</li>
+          </ul>
+
+          <h2 class="mt-5">Video Step</h2>
+          <div class="d-grid gap-2">
+            <div class="btn-style">
+              <button type="submit" class="btn btn-custom">
+                <a href="/login.html"
+                  ><img src="/assets/image/Vector.svg" alt=""
+                /></a>
+              </button>
+            </div>
+            <div class="btn-style">
+              <button type="submit" class="btn btn-custom">
+                <a href="/login.html"
+                  ><img src="/assets/image/Vector.svg" alt=""
+                /></a>
+              </button>
+            </div>
+            <div class="btn-style">
+              <button type="submit" class="btn btn-custom">
+                <a href="/login.html"
+                  ><img src="/assets/image/Vector.svg" alt=""
+                /></a>
+              </button>
+            </div>
+            <div class="btn-style">
+              <button type="submit" class="btn btn-custom">
+                <a href="/login.html"
+                  ><img src="/assets/image/Vector.svg" alt=""
+                /></a>
+              </button>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section>
+        <div class="container-fluid mb-3 custom-textarea">
+          <textarea
+            class="form-control"
+            placeholder="comment"
+            rows="7"
+            cols="30"
+          ></textarea>
+        </div>
+        <div class="text-center">
+          <button type="submit" class="btn btn-custom-area">Send</button>
+        </div>
+        <div>
+            <h2 class="col-md-6 my-5 text-center cust-h2-comment">Comment</h2>
+            <div class="col-md-6 d-flex flex-row justify-content-end align-items-center">
+                <img src="/assets/image/makanan2.png" alt="chicken" class="img-fluid rounded-circle custom-image-userComment"/>
+                <div class="d-flex flex-column mx-4 mt-3">
+                    <h5>Taufik Ramadhan</h5>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quae.</p>
+                </div>
+            </div>
+        </div>
+      </section>
+    </main>
+    <footer class="container-fluid mt-5 custom-footer">
+      <div class="text-center m-5">
+        <h4>Eat, Cook, Repeat</h4>
+        <p class="text-muted">Share your best recipe by uploading here !</p>
+      </div>
+      <nav class="d-flex justify-content-center">
+        <div class="container custom-inner-footer d-flex flex-row">
+          <div class="col-md-8 d-flex justify-content-end">
+            <ul class="navbar-nav d-flex flex-row">
+              <li class="custom-list-footer">
+                <a href="">Product</a>
+              </li>
+              <li class="custom-list-footer">
+                <a href="">Company</a>
+              </li>
+              <li class="custom-list-footer">
+                <a href="">Learn More</a>
+              </li>
+              <li class="custom-list-footer">
+                <a href="">Get In Touch</a>
+              </li>
+            </ul>
+          </div>
+          <div class="custom-arcademy col-md-4">
+            <p>© Arcademy</p>
+          </div>
+        </div>
+      </nav>
+    </footer>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
