@@ -1,11 +1,7 @@
 @font-face {
     font-family: 'Airbnb Cereal App';
-    src: url(/assets/airbnb-cereal-font/AirbnbCereal_W_Bd.otf), 
-    url(/assets/airbnb-cereal-font/AirbnbCereal_W_Bk.otf), 
-    url(/assets/airbnb-cereal-font/AirbnbCereal_W_Blk.otf),
-    url(/assets/airbnb-cereal-font/AirbnbCereal_W_Lt.otf),
-    url(/assets/airbnb-cereal-font/AirbnbCereal_W_Md.otf),
-    url(/assets/airbnb-cereal-font/AirbnbCereal_W_XBd.otf),;
+    src:
+    url(/assets/airbnb-cereal-font/AirbnbCereal_W_Md.otf);
 }
 
 body{

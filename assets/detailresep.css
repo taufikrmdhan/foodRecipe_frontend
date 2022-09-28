@@ -1,11 +1,7 @@
 @font-face {
     font-family: 'Airbnb Cereal App';
-    src: url(/assets/airbnb-cereal-font/AirbnbCereal_W_Bd.otf), 
-    url(/assets/airbnb-cereal-font/AirbnbCereal_W_Bk.otf), 
-    url(/assets/airbnb-cereal-font/AirbnbCereal_W_Blk.otf),
-    url(/assets/airbnb-cereal-font/AirbnbCereal_W_Lt.otf),
-    url(/assets/airbnb-cereal-font/AirbnbCereal_W_Md.otf),
-    url(/assets/airbnb-cereal-font/AirbnbCereal_W_XBd.otf),;
+    src:
+    url(/assets/airbnb-cereal-font/AirbnbCereal_W_Md.otf);
 }
 
 body{
@@ -13,10 +9,9 @@ body{
 }
 
 h1{
-    font-weight: 500 !important;
     color: #2E266F ;
     line-height: 90px;
-    font-size: 72px !important;
+    font-size: 50px !important;
 }
 
 header{
@@ -120,10 +115,9 @@ textarea{
 }
 
 h4{
-    font-weight: normal !important;
     color: #2E266F ;
     line-height: 48px;
-    font-size: 72px !important;
+    font-size: 60px !important;
     margin-bottom: 30px !important;
 }
 
@@ -150,14 +144,22 @@ h4{
     margin-right: auto;
 }
 
+.space-userComment{
+    margin-left: -67px;
+}
+
 @media (max-width: 640px) {
     .footer-links{
         margin-left: 0;
+        font-size: 14px;
     }
     .custom-inner-footer{
         flex-direction: column;
     }
     .custom-arcademy{
         justify-content: center;
+    }
+    .space-userComment{
+        margin-left: 0px;
     }
 }
