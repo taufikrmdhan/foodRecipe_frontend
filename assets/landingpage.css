@@ -18,6 +18,14 @@ h1{
     line-height: 90px;
     font-size: 72px !important;
 }
+.active-custom {
+    font-weight: bold !important;
+  }
+
+  button a{
+    text-decoration: none !important;
+    color: white !important;
+  }
 
 .img-header{
     max-width: 600px;
