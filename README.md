@@ -10,15 +10,11 @@ Project beginner frontend / responsif pijarcamp dengan beberapa requirement yang
 
 ○ Bootstrap Container & Grid
 
-○ External CSS (???)
+○ External CSS
 
 ○ Media Query
 
 ○ Responsive
 
-○ Deploy di https://www.netlify.com/
+○ Deploy di https://www.netlify.com/ (visit : https://ungu.in/foodrecipe)
 
-○ Gunakan Bahasa Inggris untuk nama class atau id
-
-○ Upload/push tugas kamu ke github dan gunakan nama
-yang profesional
