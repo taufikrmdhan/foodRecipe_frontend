@@ -24,6 +24,12 @@ body{
     color: white !important;
 }
 
+.accent{
+    accent-color: #EFC81A !important;
+    cursor: pointer;
+    margin-left: -20px;
+}
+
 .btn-custom:hover{
     background-color: #EFC81A !important;
     color: white !important;
