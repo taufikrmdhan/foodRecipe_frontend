@@ -24,6 +24,14 @@ header {
     padding-bottom: 60px;
 }
 
+/* @media (max-width: 640px) {
+    .custom-font-collapse{
+        font-size: 5px !important;
+        margin-left: 2000px !important;
+        margin-right: 2000px !important;
+    }
+} */
+
 .custom-awesome {
   font-size: 20px !important;
   color: #efc81a !important;
