@@ -20,6 +20,10 @@ header {
   border-bottom: #2e266f 5px solid;
 }
 
+.custom-main{
+    padding-bottom: 60px;
+}
+
 .custom-awesome {
   font-size: 20px !important;
   color: #efc81a !important;

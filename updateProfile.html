@@ -56,7 +56,7 @@
         </div>
       </nav>
     </header>
-    <main>
+    <main class="custom-main">
       <section>
         <div class="container">
           <div class="text-center custom-space">
@@ -66,7 +66,9 @@
             </button>
             <div class="d-flex flex-column">
               <div>
-                <button type="button" class="btn btn-custom">Change Photo Profile</button>
+                <button type="button" class="btn btn-custom">
+                  Change Photo Profile
+                </button>
               </div>
               <div>
                 <button type="button" class="btn btn-custom">
@@ -75,54 +77,105 @@
               </div>
             </div>
           </div>
-          <nav class="bg-transparent p-4">
-              <div class="" id="navbarNav">
-                <ul class="navbar-nav d-flex flex-row">
-                  <li class="nav-item px-4">
-                    <a
-                      class="nav-link active active-custom custom-nav-recipe"
-                      aria-current="page"
-                      href="landingPage.html"
-                      >My Recipe</a
-                    >
-                  </li>
-                  <li class="nav-item px-4">
-                    <a class="nav-link active custom-nav-recipe" href="savedRecipe.html"
-                      >Saved Recipe</a
-                    >
-                  </li>
-                  <li class="nav-item px-4">
-                    <a class="nav-link active custom-nav-recipe" href="likedRecipe.html"
-                      >Liked Recipe</a
-                    >
-                  </li>
-                </ul>
-                <hr>
-              </div>
-            </div>
-          </nav>
-        </div>
-        <div class="container">
-            <div class="grid-12 gap-medium">
+          <p>
+            <a
+              class="btn mx-4"
+              data-bs-toggle="collapse"
+              href="#multiCollapseExample1"
+              >My Recipe</a
+            >
+            <a
+              class="btn mx-4"
+              data-bs-toggle="collapse"
+              href="#multiCollapseExample2"
+              >Saved Recipe</a
+            >
+            <a
+              class="btn mx-4"
+              data-bs-toggle="collapse"
+              href="#multiCollapseExample3"
+              >liked Recipe</a
+            >
+          </p>
+
+          <div class="collapse multi-collapse" id="multiCollapseExample1">
+            <div class="container">
+              <div class="grid-12 gap-medium">
                 <div class="cus-grid-md-3 position-relative p-0">
                   <img
                     src="/assets/image/makanan3.png"
                     class="img-fluid"
                     alt="makanan3"
-                  /><span class="position-absolute title-image">Chicken Kare</span>
+                  /><span class="position-absolute title-image"
+                    >Chicken Kare</span
+                  >
                 </div>
                 <div class="cus-grid-md-3 position-relative p-0">
                   <img
                     src="/assets/image/makanan4.png"
                     class="img-fluid"
                     alt="makan4"
-                  /><span class="position-absolute title-image">Bomb Chicken</span>
+                  /><span class="position-absolute title-image"
+                    >Bomb Chicken</span
+                  >
                 </div>
+              </div>
             </div>
+          </div>
+
+          <div class="collapse multi-collapse" id="multiCollapseExample2">
+            <div class="container">
+              <div class="grid-12 gap-medium">
+                <div class="cus-grid-md-3 position-relative p-0">
+                  <img
+                    src="/assets/image/makanan4.png"
+                    class="img-fluid"
+                    alt="makanan3"
+                  /><span class="position-absolute title-image"
+                    >Chicken Kare</span
+                  >
+                </div>
+                <div class="cus-grid-md-3 position-relative p-0">
+                  <img
+                    src="/assets/image/makanan3.png"
+                    class="img-fluid"
+                    alt="makan4"
+                  /><span class="position-absolute title-image"
+                    >Bomb Chicken</span
+                  >
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="collapse multi-collapse" id="multiCollapseExample3">
+            <div class="container">
+              <div class="grid-12 gap-medium">
+                <div class="cus-grid-md-3 position-relative p-0">
+                  <img
+                    src="/assets/image/makanan3.png"
+                    class="img-fluid"
+                    alt="makanan3"
+                  /><span class="position-absolute title-image"
+                    >Chicken Kare</span
+                  >
+                </div>
+                <div class="cus-grid-md-3 position-relative p-0">
+                  <img
+                    src="/assets/image/makanan4.png"
+                    class="img-fluid"
+                    alt="makan4"
+                  /><span class="position-absolute title-image"
+                    >Bomb Chicken</span
+                  >
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
       </section>
     </main>
-    <footer class="container-fluid mt-5 custom-footer">
+    <footer class="container-fluid mt-5 custom-footer fixed-bottom">
       <nav class="d-flex justify-content-center">
         <div class="footer-links">
           <ul class="navbar-nav d-flex flex-row">
