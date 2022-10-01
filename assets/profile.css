@@ -32,6 +32,16 @@ header {
     }
 } */
 
+.custom-name-profile{
+    margin-left: -40px !important;
+}
+
+/* @media (max-width: 640px) {
+    .custom-name-profile{
+        margin-left: 0px !important;
+    }
+} */
+
 .custom-awesome {
   font-size: 20px !important;
   color: #efc81a !important;
