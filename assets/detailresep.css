@@ -18,38 +18,38 @@ header{
     padding-bottom: 100px;
 }
 
-.custom-nav{
+.customNav{
     color: #2E266F !important;
 }
 
-.custom-detail{
+.customDetail{
     text-align: center;
 }
 
-.custom-ingredient{
+.customIngredient{
     margin-left: 230px;
 }
 
-.custom-image-food{
+.customImageFood{
     width: 65%;
     height: 500px !important;
     object-fit: cover;
 }
 
-.btn-custom{
+.btnCustom{
     background-color: #EFC81A !important;
     color: white !important;
     border-radius: 4px !important;
     width: 25% !important;
 }
-.btn-custom-area{
+.btnCustomArea{
     background-color:#EFC81A !important;
     color: white !important;
     border-radius: 4px !important;
     width: 20% !important;
 }
 
-.btn-style{
+.btnStyle{
     margin-top: 5px;
     margin-bottom: 5px;
 }
@@ -81,35 +81,35 @@ header{
 }
 
 
-.custom-textarea{
+.customTextarea{
     width: 70% !important;
     /* margin-left: 280px !important; */
 }
 textarea{
     background-color: #F6F5F4 !important;
 }
-.custom-image-userComment{
+.customImageUserComment{
     width: 50px !important;
     height: 50px !important;
 }
-.cust-h2-comment{
+.custH2Comment{
     margin-left: -70px !important;
 }
 
 @media (max-width: 768px) {
-    .custom-ingredient{
+    .customIngredient{
         margin-left: 0px;
     }
 }
 
 
-.custom-footer{
+.customFooter{
     background-color: #EFC81A;
     padding: 50px;
     color: white;
 }
 
-.custom-inner-footer{
+.customInnerFooter{
     margin-top: 100px !important;
     display: flex;
     flex-direction: row;
@@ -122,22 +122,22 @@ h4{
     margin-bottom: 30px !important;
 }
 
-.custom-list-footer{   
+.customListFooter{   
     padding: 20px;
 }
-.custom-list-footer a{
+.customListFooter a{
     text-decoration: none;
     color: gray !important;
 }
 
-.custom-arcademy{
+.customArcademy{
     position: relative;
     display: flex;
     justify-content: end;
     align-items: center;
     color: black;
 }
-.footer-links{
+.footerLinks{
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -145,22 +145,22 @@ h4{
     margin-right: auto;
 }
 
-.space-userComment{
+.spaceUserComment{
     margin-left: -67px;
 }
 
 @media (max-width: 640px) {
-    .footer-links{
+    .footerLinks{
         margin-left: 0;
         font-size: 14px;
     }
-    .custom-inner-footer{
+    .customInnerFooter{
         flex-direction: column;
     }
-    .custom-arcademy{
+    .customArcademy{
         justify-content: center;
     }
-    .space-userComment{
+    .spaceUserComment{
         margin-left: 0px;
     }
 }

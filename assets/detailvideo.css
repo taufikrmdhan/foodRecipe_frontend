@@ -7,7 +7,7 @@ body {
   font-family: "Airbnb Cereal App" !important;
 }
 
-.custom-body {
+.customBody {
   background: linear-gradient(
     90deg,
     #efc81a 5%,
@@ -28,17 +28,17 @@ header {
   padding-bottom: 100px;
 }
 
-.custom-nav {
+.customNav {
   color: #2e266f !important;
 }
 
-.custom-footer {
+.customFooter {
   background-color: #efc81a;
   padding: 50px;
   color: white;
 }
 
-.custom-inner-footer {
+.customInnerFooter {
   margin-top: 100px !important;
   display: flex;
   flex-direction: row;
@@ -50,51 +50,51 @@ h4 {
   margin-bottom: 30px !important;
 }
 
-.custom-list-footer {
+.customListFooter {
   padding: 20px;
 }
-.custom-list-footer a {
+.customListFooter a {
   text-decoration: none;
   color: gray !important;
 }
 
-.custom-arcademy {
+.customArcademy {
   position: relative;
   display: flex;
   justify-content: end;
   align-items: center;
   color: black;
 }
-.footer-links {
+.footerLinks {
   display: flex;
   flex-direction: row;
   justify-content: center;
   margin-left: auto;
   margin-right: auto;
 }
-.grid-12 {
+.grid12 {
   display: grid;
   grid-template-columns: repeat(12, minmax(0, 1fr));
 }
 
-.cus-grid-lg-8 {
+.cusGridLg8 {
   grid-column: span 8 / span 8;
 }
 
-.cus-grid-lg-4 {
+.cusGridLg4 {
   grid-column: span 4 / span 4;
 }
 
-.gap-medium {
+.gapMedium {
   gap: 8px;
 }
 
-.flex-col {
+.flexCol {
   display: flex;
   flex-direction: column;
 }
 
-.aspect-16-9-lock {
+.aspectLock {
   position: relative;
   padding-bottom: 56.25%;
   padding-top: 25px;
@@ -103,7 +103,7 @@ h4 {
   width: 100%;
 }
 
-.embed-video {
+.embedVideo {
   position: absolute;
   top: 0;
   left: 0;
@@ -114,24 +114,24 @@ h4 {
 }
 
 @media (max-width: 768px) {
-  .cus-grid-lg-8 {
+  .cusGridLg8 {
     grid-column: span 12 / span 12;
   }
 
-  .cus-grid-lg-4 {
+  .cusGridLg4 {
     grid-column: span 12 / span 12;
   }
 }
 
 @media (max-width: 640px) {
-  .footer-links {
+  .footerLinks {
     margin-left: 0;
     font-size: 14px;
   }
-  .custom-inner-footer {
+  .customInnerFooter {
     flex-direction: column;
   }
-  .custom-arcademy {
+  .customArcademy {
     justify-content: center;
   }
 }

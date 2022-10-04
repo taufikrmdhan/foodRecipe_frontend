@@ -19,17 +19,17 @@ header{
     padding-bottom: 100px;
 }
 
-.custom-nav{
+.customNav{
     color: #2E266F !important;
 }
 
-.custom-footer{
+.customFooter{
     background-color: #EFC81A;
     padding: 50px;
     color: white;
 }
 
-.custom-inner-footer{
+.customInnerFooter{
     margin-top: 100px !important;
     display: flex;
     flex-direction: row;
@@ -42,7 +42,7 @@ h4{
     margin-bottom: 30px !important;
 }
 
-.btn-custom-area{
+.btnCustomArea{
     background-color:#EFC81A !important;
     color: white !important;
     border-radius: 4px !important;
@@ -55,7 +55,7 @@ textarea{
 input{
     background-color: #F6F5F4 !important;
 }
-.active-custom {
+.activeCustom {
     font-weight: bold !important;
     border-bottom: #2E266F 5px solid !important;
   }
@@ -72,22 +72,22 @@ input{
     align-items: center;
 }
 
-.custom-list-footer{   
+.customListFooter{   
     padding: 20px;
 }
-.custom-list-footer a{
+.customListFooter a{
     text-decoration: none;
     color: gray !important;
 }
 
-.custom-arcademy{
+.customArcademy{
     position: relative;
     display: flex;
     justify-content: end;
     align-items: center;
     color: black;
 }
-.footer-links{
+.footerLinks{
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -98,14 +98,14 @@ input{
 
 
 @media (max-width: 640px) {
-    .footer-links{
+    .footerLinks{
         margin-left: 0;
         font-size: 14px;
     }
-    .custom-inner-footer{
+    .customInnerFooter{
         flex-direction: column;
     }
-    .custom-arcademy{
+    .customArcademy{
         justify-content: center;
     }
 }

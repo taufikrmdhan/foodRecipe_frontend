@@ -11,16 +11,16 @@ header {
   padding-bottom: 100px;
 }
 
-.custom-nav {
+.customNav {
   color: #2e266f !important;
 }
 
-.active-custom {
+.activeCustom {
   font-weight: bold !important;
   border-bottom: #2e266f 5px solid;
 }
 
-.btn-custom-update{
+.btnCustomUpdate{
   background-color: #F6F5F4 !important;
   border-radius: 10px !important;
   width: 20% !important;
@@ -31,11 +31,11 @@ button a{
   color: black;
 }
 
-.custom-main{
+.customMain{
     padding-bottom: 60px;
 }
 
-.custom-space-update{
+.customSpaceUpdate{
     margin-top: -90px !important;
     margin-left: -40px;
     /* margin-bottom: 50px; */
@@ -49,7 +49,7 @@ button a{
     }
 } */
 
-.custom-name-profile{
+.customNameProfile{
     margin-left: -40px !important;
 }
 
@@ -59,32 +59,32 @@ button a{
     }
 } */
 
-.custom-awesome {
+.customAwesome {
   font-size: 20px !important;
   color: #efc81a !important;
   margin-top: 150px !important;
   margin-left: -50px !important;
 }
 
-.custom-space {
+.customSpace {
   margin-top: 100px !important;
   margin-bottom: 50px;
 }
 
-.grid-12 {
+.grid12 {
   display: grid;
   grid-template-columns: repeat(12, minmax(0, 1fr));
 }
 
-.gap-medium {
+.gapMedium {
   gap: 24px;
 }
 
-.cus-grid-md-3 {
+.cusGridMd3 {
   grid-column: span 3 / span 3;
 }
 
-.title-image {
+.titleImage {
   position: absolute;
   top: 0;
   left: 0;
@@ -98,26 +98,26 @@ button a{
   padding-left: 10px;
   padding-bottom: 10px;
 }
-.custom-list-footer {
+.customListFooter {
   padding: 20px;
 }
-.custom-list-footer a {
+.customListFooter a {
   text-decoration: none;
   color: gray !important;
 }
-.custom-footer {
+.customFooter {
   background-color: #efc81a;
   padding: 10px;
   color: white;
 }
 
-.custom-inner-footer {
+.customInnerFooter {
   margin-top: 100px !important;
   display: flex;
   flex-direction: row;
 }
 
-.footer-links {
+.footerLinks {
   display: flex;
   flex-direction: row;
   justify-content: center;
@@ -126,25 +126,25 @@ button a{
 }
 
 @media (max-width: 640px) {
-  .footer-links {
+  .footerLinks {
     margin-left: 0;
     font-size: 14px;
   }
-  .custom-inner-footer {
+  .customInnerFooter {
     flex-direction: column;
   }
 }
 @media (max-width: 768px) {
-  .cus-grid-md-3 {
+  .cusGridMd3 {
     grid-column: span 6 / span 6;
   }
 }
 
 @media (max-width: 640px) {
-  .cus-grid-md-3 {
+  .cusGridMd3 {
     grid-column: span 12 / span 12;
   }
-  .btn-custom-update{
+  .btnCustomUpdate{
     width:  100px !important;
   }
   /* .custom-name-profile{

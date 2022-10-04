@@ -19,7 +19,7 @@ body{
     align-items: center;
 }
 
-.btn-custom{
+.btnCustom{
     background-color: #EFC81A !important;
     color: white !important;
 }
@@ -30,7 +30,7 @@ body{
     margin-left: -20px;
 }
 
-.btn-custom:hover{
+.btnCustom:hover{
     background-color: #EFC81A !important;
     color: white !important;
 }
