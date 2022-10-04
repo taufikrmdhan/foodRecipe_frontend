@@ -1,133 +1,137 @@
 @font-face {
-    font-family: 'Airbnb Cereal App';
-    src:
-    url(/assets/airbnb-cereal-font/AirbnbCereal_W_Md.otf);
+  font-family: "Airbnb Cereal App";
+  src: url(/assets/airbnb-cereal-font/AirbnbCereal_W_Md.otf);
 }
 
-body{
-    font-family: 'Airbnb Cereal App' !important;
+body {
+  font-family: "Airbnb Cereal App" !important;
 }
 
-.custom-body{
-    background: linear-gradient(90deg,#EFC81A 5%,rgba(255,255,255,1) 5%,  rgba(255,255,255,1) 95%);
-    /* padding-bottom: 0px; */
+.custom-body {
+  background: linear-gradient(
+    90deg,
+    #efc81a 5%,
+    rgba(255, 255, 255, 1) 5%,
+    rgba(255, 255, 255, 1) 95%
+  );
+  /* padding-bottom: 0px; */
 }
 
-h1{
-    font-weight: 500 !important;
-    color: #2E266F ;
-    line-height: 90px;
-    font-size: 72px !important;
+h1 {
+  font-weight: 500 !important;
+  color: #2e266f;
+  line-height: 90px;
+  font-size: 72px !important;
 }
 
-header{
-    padding-bottom: 100px;
+header {
+  padding-bottom: 100px;
 }
 
-.custom-nav{
-    color: #2E266F !important;
+.custom-nav {
+  color: #2e266f !important;
 }
 
-.custom-footer{
-    background-color: #EFC81A;
-    padding: 50px;
-    color: white;
+.custom-footer {
+  background-color: #efc81a;
+  padding: 50px;
+  color: white;
 }
 
-.custom-inner-footer{
-    margin-top: 100px !important;
-    display: flex;
-    flex-direction: row;
+.custom-inner-footer {
+  margin-top: 100px !important;
+  display: flex;
+  flex-direction: row;
 }
-h4{
-    color: #2E266F ;
-    line-height: 48px;
-    font-size: 60px !important;
-    margin-bottom: 30px !important;
-}
-
-.custom-list-footer{   
-    padding: 20px;
-}
-.custom-list-footer a{
-    text-decoration: none;
-    color: gray !important;
+h4 {
+  color: #2e266f;
+  line-height: 48px;
+  font-size: 60px !important;
+  margin-bottom: 30px !important;
 }
 
-.custom-arcademy{
-    position: relative;
-    display: flex;
-    justify-content: end;
-    align-items: center;
-    color: black;
+.custom-list-footer {
+  padding: 20px;
 }
-.footer-links{
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    margin-left: auto;
-    margin-right: auto;
+.custom-list-footer a {
+  text-decoration: none;
+  color: gray !important;
+}
+
+.custom-arcademy {
+  position: relative;
+  display: flex;
+  justify-content: end;
+  align-items: center;
+  color: black;
+}
+.footer-links {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-left: auto;
+  margin-right: auto;
 }
 .grid-12 {
-    display: grid;
-    grid-template-columns: repeat(12, minmax(0, 1fr));
-  }
-  
+  display: grid;
+  grid-template-columns: repeat(12, minmax(0, 1fr));
+}
+
+.cus-grid-lg-8 {
+  grid-column: span 8 / span 8;
+}
+
+.cus-grid-lg-4 {
+  grid-column: span 4 / span 4;
+}
+
+.gap-medium {
+  gap: 8px;
+}
+
+.flex-col {
+  display: flex;
+  flex-direction: column;
+}
+
+.aspect-16-9-lock {
+  position: relative;
+  padding-bottom: 56.25%;
+  padding-top: 25px;
+  height: 0;
+  overflow: hidden;
+  width: 100%;
+}
+
+.embed-video {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  height: 100%;
+  width: 100%;
+}
+
+@media (max-width: 768px) {
   .cus-grid-lg-8 {
-    grid-column: span 8 / span 8;
-  }
-  
-  .cus-grid-lg-4 {
-    grid-column: span 4 / span 4;
-  }
-  
-  .gap-medium {
-    gap: 8px;
-  }
-  
-  .flex-col {
-    display: flex;
-    flex-direction: column;
-  }
-  
-  .aspect-16-9-lock {
-    position: relative;
-    padding-bottom: 56.25%;
-    padding-top: 25px;
-    height: 0;
-    overflow: hidden;
-    width: 100%;
-  }
-  
-  .embed-video {
-    position: absolute;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    height: 100%;
-    width: 100%;
-  }
-  
-  @media (max-width: 768px) {
-    .cus-grid-lg-8 {
-      grid-column: span 12 / span 12;
-    }
-  
-    .cus-grid-lg-4 {
-      grid-column: span 12 / span 12;
-    }
+    grid-column: span 12 / span 12;
   }
 
+  .cus-grid-lg-4 {
+    grid-column: span 12 / span 12;
+  }
+}
+
 @media (max-width: 640px) {
-    .footer-links{
-        margin-left: 0;
-        font-size: 14px;
-    }
-    .custom-inner-footer{
-        flex-direction: column;
-    }
-    .custom-arcademy{
-        justify-content: center;
-    }
+  .footer-links {
+    margin-left: 0;
+    font-size: 14px;
+  }
+  .custom-inner-footer {
+    flex-direction: column;
+  }
+  .custom-arcademy {
+    justify-content: center;
+  }
 }
