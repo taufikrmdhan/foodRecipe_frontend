@@ -33,6 +33,7 @@ header{
 .customImageFood{
     width: 65%;
     height: 500px !important;
+    border-radius: 15px;
     object-fit: cover;
 }
 
